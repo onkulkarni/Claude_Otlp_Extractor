@@ -2,6 +2,11 @@
 
 > This document is a self-contained handoff so implementation can start in a fresh session with no prior context. It captures what was investigated, what was decided, and what's still open.
 
+## Related documents
+
+- `plans/2026-07-13-session-consolidation-jira-map-interval.md` — approved, not-yet-implemented plan for a consolidated session report, a session→JIRA resume map, and `--interval` scheduling. Read this before starting related work instead of re-exploring the codebase.
+- `extractor/session_costs.py` (+ `tests/test_session_costs.py`) — a post-Phase-1 addition not covered by the design below: sums `Cost USD` per `Session ID` from `records.csv`, deduping on `Request ID`. Run as `python -m extractor.session_costs [--csv-path extracted/records.csv]`. It's the template the above plan's new `consolidate.py`/`jira_map.py` modules follow (read-only report over `records.csv`, no changes to raw output).
+
 ## Goal
 
 Greenfield project. Claude Code emits its own OpenTelemetry logs/metrics/traces, which an OTel Collector's file exporter drops as batched JSON files into `received\logs\`, `received\metrics\`, `received\traces\` (sample data already present in this repo). A **later phase** (not this one) will POST one record per LLM call to a server for analytics storage.

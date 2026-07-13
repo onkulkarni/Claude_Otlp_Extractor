@@ -1,0 +1,217 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "tool_result"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T16:44:59.020Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "422"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "079cbdf7-c47f-4025-b2f3-8d31b84f2f1d"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_018SWoRDZinZQrsw6VFVXDot"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "stringValue": "true"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "stringValue": "1390"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_parameters",
+                  "value": {
+                    "stringValue": "{\"bash_command\":\"cd\",\"full_command\":\"cd /c/proj/Oltp-Extracter\\npython -m extractor --input received --output extracted\\necho \\\"---\\\"\\nwc -l extracted/records.csv\\nfind extracted -name \\\"*.json\\\" | wc -l\",\"description\":\"Re-run and confirm no duplicate CSV rows or JSON files\"}"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_input",
+                  "value": {
+                    "stringValue": "{\"command\":\"cd /c/proj/Oltp-Extracter\\npython -m extractor --input received --output extracted\\necho \\\"---\\\"\\nwc -l extracted/records.csv\\nfind extracted -name \\\"*.json\\\" | wc -l\",\"description\":\"Re-run and confirm no duplicate CSV rows or JSON files\"}"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_input_size_bytes",
+                  "value": {
+                    "stringValue": "251"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_result_size_bytes",
+                  "value": {
+                    "stringValue": "92"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision_source",
+                  "value": {
+                    "stringValue": "config"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision_type",
+                  "value": {
+                    "stringValue": "accept"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783701899020000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.tool_result"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "DGvcqikVjFU=",
+              "observedTimeUnixNano": "1783701899020000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.206",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.206"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

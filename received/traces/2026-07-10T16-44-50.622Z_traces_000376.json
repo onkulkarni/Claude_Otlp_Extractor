@@ -1,0 +1,883 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool.blocked_on_user"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "1"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "accept"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "stringValue": "config"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "lJJ0biVmYMA=",
+              "traceState": "",
+              "parentSpanId": "OU1BxPDfjwc=",
+              "name": "claude_code.tool.blocked_on_user",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1783701889603000000",
+              "endTimeUnixNano": "1783701889604553700",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool.execution"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01PgMcxrWjWRNqxETNHY8b9o"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01PgMcxrWjWRNqxETNHY8b9o"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "32"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "boolValue": true
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "yMggigFoHJU=",
+              "traceState": "",
+              "parentSpanId": "OU1BxPDfjwc=",
+              "name": "claude_code.tool.execution",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1783701889605000000",
+              "endTimeUnixNano": "1783701889636866700",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "TaskUpdate"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01PgMcxrWjWRNqxETNHY8b9o"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01PgMcxrWjWRNqxETNHY8b9o"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "34"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "OU1BxPDfjwc=",
+              "traceState": "",
+              "parentSpanId": "DGvcqikVjFU=",
+              "name": "claude_code.tool",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1783701889603000000",
+              "endTimeUnixNano": "1783701889637013100",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "llm_request"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.system",
+                  "value": {
+                    "stringValue": "anthropic"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.request.model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "llm_request.context",
+                  "value": {
+                    "stringValue": "interaction"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "speed",
+                  "value": {
+                    "stringValue": "normal"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "4622"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "input_tokens",
+                  "value": {
+                    "intValue": "2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "output_tokens",
+                  "value": {
+                    "intValue": "349"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_read_tokens",
+                  "value": {
+                    "intValue": "124550"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "1176"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "boolValue": true
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "attempt",
+                  "value": {
+                    "intValue": "1"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011CctiN45obRnGrorm4tG9X"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.response.id",
+                  "value": {
+                    "stringValue": "req_011CctiN45obRnGrorm4tG9X"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "client_request_id",
+                  "value": {
+                    "stringValue": "482868da-1874-4bbb-8324-b4d270df3fb2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "ttft_ms",
+                  "value": {
+                    "intValue": "2100"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "stop_reason",
+                  "value": {
+                    "stringValue": "tool_use"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.response.finish_reasons",
+                  "value": {
+                    "arrayValue": {
+                      "values": [
+                        {
+                          "stringValue": "tool_use"
+                        }
+                      ]
+                    }
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [
+                {
+                  "attributes": [
+                    {
+                      "key": "attempt",
+                      "value": {
+                        "intValue": "1"
+                      },
+                      "keyStrindex": 0
+                    },
+                    {
+                      "key": "client_request_id",
+                      "value": {
+                        "stringValue": "482868da-1874-4bbb-8324-b4d270df3fb2"
+                      },
+                      "keyStrindex": 0
+                    }
+                  ],
+                  "timeUnixNano": "1783701885282155100",
+                  "name": "gen_ai.request.attempt",
+                  "droppedAttributesCount": 0
+                }
+              ],
+              "links": [
+                {
+                  "attributes": [
+                    {
+                      "key": "link.type",
+                      "value": {
+                        "stringValue": "parent_of"
+                      },
+                      "keyStrindex": 0
+                    }
+                  ],
+                  "traceId": "alMNzDAYpn0dBVrkXI39Yg==",
+                  "spanId": "EG3R88hPn/I=",
+                  "traceState": "",
+                  "droppedAttributesCount": 0,
+                  "flags": 769
+                }
+              ],
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "TrM0IOsB0qE=",
+              "traceState": "",
+              "parentSpanId": "DGvcqikVjFU=",
+              "name": "claude_code.llm_request",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1783701885280000000",
+              "endTimeUnixNano": "1783701889902269900",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool.blocked_on_user"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "1"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "accept"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "stringValue": "config"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "V/5i2lfrhVA=",
+              "traceState": "",
+              "parentSpanId": "Ar+zCODSB7M=",
+              "name": "claude_code.tool.blocked_on_user",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1783701889954000000",
+              "endTimeUnixNano": "1783701889954879400",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool.execution"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01YFAEhLssR3T7vfkhC6tyUD"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01YFAEhLssR3T7vfkhC6tyUD"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "28"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "boolValue": true
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "kvuG65T8XEw=",
+              "traceState": "",
+              "parentSpanId": "Ar+zCODSB7M=",
+              "name": "claude_code.tool.execution",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1783701889955000000",
+              "endTimeUnixNano": "1783701889983544700",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "TaskUpdate"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01YFAEhLssR3T7vfkhC6tyUD"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01YFAEhLssR3T7vfkhC6tyUD"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "30"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "cuDsTzgEEG0tD2W8mw3Dgg==",
+              "spanId": "Ar+zCODSB7M=",
+              "traceState": "",
+              "parentSpanId": "DGvcqikVjFU=",
+              "name": "claude_code.tool",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1783701889954000000",
+              "endTimeUnixNano": "1783701889983694700",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.tracing",
+            "version": "1.0.0",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.206"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

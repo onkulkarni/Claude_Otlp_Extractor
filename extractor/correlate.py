@@ -69,16 +69,22 @@ def _build_record(event: dict, state: state_store.SessionState) -> dict:
     }
 
 
-def process_events(events: list, state_dir: str) -> list:
+def process_events(events: list, state_dir: str, jira_fallback: dict | None = None) -> list:
     states: dict[str, state_store.SessionState] = {}
     records = []
+    jira_fallback = jira_fallback or {}
 
     for event in events:
         session_id = event.get("session.id")
         if session_id is None:
             continue
         if session_id not in states:
-            states[session_id] = state_store.load(state_dir, session_id)
+            state = state_store.load(state_dir, session_id)
+            if state.last_jira_key is None:
+                fallback_key = jira_fallback.get(session_id)
+                if fallback_key:
+                    state.last_jira_key = fallback_key
+            states[session_id] = state
         state = states[session_id]
 
         event_name = event.get("event.name")
@@ -107,6 +113,6 @@ def process_events(events: list, state_dir: str) -> list:
     return records
 
 
-def run(input_dir: str, state_dir: str) -> list:
+def run(input_dir: str, state_dir: str, jira_fallback: dict | None = None) -> list:
     events = load_and_sort_events(input_dir)
-    return process_events(events, state_dir)
+    return process_events(events, state_dir, jira_fallback=jira_fallback)

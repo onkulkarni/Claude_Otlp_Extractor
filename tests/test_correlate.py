@@ -78,6 +78,25 @@ def test_state_persists_and_reloads_across_runs(tmp_path):
     assert reloaded.last_jira_key == "APA-43308"
 
 
+def test_jira_fallback_seeds_session_with_lost_state(tmp_path):
+    # SKILL_FIXTURES alone has no JIRA-key-bearing user_prompt for this session
+    # (its user_prompt is the unrelated "/code-explainer..." slash command) --
+    # simulates a session resumed after .state/ was lost/reset.
+    events = _load_events(SKILL_FIXTURES)
+    records = correlate.process_events(events, str(tmp_path), jira_fallback={JIRA_SESSION: "APA-1"})
+
+    assert len(records) == 1
+    assert records[0]["JIRA Key"] == "APA-1"
+
+
+def test_jira_fallback_does_not_override_state_that_still_has_a_key(tmp_path):
+    events = _load_events(JIRA_FIXTURES)
+    records = correlate.process_events(events, str(tmp_path), jira_fallback={JIRA_SESSION: "APA-99999"})
+
+    for record in records:
+        assert record["JIRA Key"] == "APA-43308"  # in-run user_prompt wins over fallback
+
+
 def test_run_end_to_end_over_fixture_folder(tmp_path):
     input_dir = tmp_path / "received"
     logs_dir = input_dir / "logs"

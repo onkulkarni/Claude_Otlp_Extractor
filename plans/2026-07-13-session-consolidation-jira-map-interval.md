@@ -1,6 +1,6 @@
 # Plan: Consolidation report, JIRA-resume map, interval scheduling, handoff docs
 
-> Status: Approved 2026-07-13, not yet implemented. See [`../HANDOFF.md`](../HANDOFF.md) for the base extractor design this plan builds on.
+> Status: Approved 2026-07-13, **implemented and verified 2026-07-14**. See [`../HANDOFF.md`](../HANDOFF.md) for the base extractor design this plan builds on, and `HANDOFF_consolidation.md` / `HANDOFF_jira_resume_map.md` / `HANDOFF_interval_scheduling.md` for the per-story handoffs (design decisions, verification results, and manual test instructions) written at the end of the implementation session.
 
 ## Context
 

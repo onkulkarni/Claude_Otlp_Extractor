@@ -4,8 +4,18 @@
 
 ## Related documents
 
-- `plans/2026-07-13-session-consolidation-jira-map-interval.md` — approved, not-yet-implemented plan for a consolidated session report, a session→JIRA resume map, and `--interval` scheduling. Read this before starting related work instead of re-exploring the codebase.
-- `extractor/session_costs.py` (+ `tests/test_session_costs.py`) — a post-Phase-1 addition not covered by the design below: sums `Cost USD` per `Session ID` from `records.csv`, deduping on `Request ID`. Run as `python -m extractor.session_costs [--csv-path extracted/records.csv]`. It's the template the above plan's new `consolidate.py`/`jira_map.py` modules follow (read-only report over `records.csv`, no changes to raw output).
+- `plans/2026-07-13-session-consolidation-jira-map-interval.md` — plan for a consolidated session report, a session→JIRA resume map, and `--interval` scheduling. **Implemented and verified 2026-07-14** — see the three per-story handoffs below instead of re-exploring the codebase.
+- `HANDOFF_consolidation.md` — Story A: `extractor/consolidate.py`, incl. "How to run / test manually".
+- `HANDOFF_jira_resume_map.md` — Story B: `extractor/jira_map.py` + `correlate.py`/`cli.py` wiring, incl. "How to run / test manually".
+- `HANDOFF_interval_scheduling.md` — Story C: `--interval` flag on `extractor/cli.py`, incl. "How to run / test manually".
+- `extractor/session_costs.py` (+ `tests/test_session_costs.py`) — a post-Phase-1 addition not covered by the design below: sums `Cost USD` per `Session ID` from `records.csv`, deduping on `Request ID`. Run as `python -m extractor.session_costs [--csv-path extracted/records.csv]`. It's the template the three modules above follow (read-only report over `records.csv`, no changes to raw output).
+
+### JIRA tracking (Sparkathon plan above)
+
+- Epic [APA-43342](https://nice-ce-cxone-prod.atlassian.net/browse/APA-43342) — Sparkathon demo additions: session consolidation, JIRA resume map, interval scheduling
+  - Story A [APA-43347](https://nice-ce-cxone-prod.atlassian.net/browse/APA-43347) — Consolidated session report: `extractor/consolidate.py`
+  - Story B [APA-43343](https://nice-ce-cxone-prod.atlassian.net/browse/APA-43343) — Session→JIRA resume map: `extractor/jira_map.py`
+  - Story C [APA-43345](https://nice-ce-cxone-prod.atlassian.net/browse/APA-43345) — Interval scheduling: `--interval` flag on `extractor/cli.py`
 
 ## Goal
 

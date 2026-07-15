@@ -1,0 +1,182 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "e1534377-7fe3-42e6-851b-2df03767e8ec"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "tool_decision"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-14T03:06:20.495Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "241"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "79345be9-a0b4-4e9e-98c0-7e0a2de40cad"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "accept"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "stringValue": "user_temporary"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01TPk2yrWToXQj5C8SjJ1xpH"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_parameters",
+                  "value": {
+                    "stringValue": "{\"bash_command\":\"rm\",\"full_command\":\"rm -rf /tmp_manual_check 2>/dev/null; mkdir -p /tmp_manual_check && python -m extractor --input received --output /tmp_manual_check/extracted --state-dir /tmp_manual_check/.state 2>&1\",\"description\":\"Run extractor once against real received/ sample data\"}"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783998380495000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.tool_decision"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "Bci5DUTmPxq3F1l5Yo1VTQ==",
+              "spanId": "DtlAjCbyNtU=",
+              "observedTimeUnixNano": "1783998380495000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.208",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.208"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "a0798161dee5eb4444d961258e51618fbff9ed5dcd6c0969e8816b45918243b4"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "3a6a9ae0-867b-4557-b1bf-044bac71b2b3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "ashish.sheth@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "24c1939a-abc2-4b3e-a061-bf900662d0f2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015YFYjzRwtqPgUQwV9GxfYD"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "terminal.type",
+                  "value": {
+                    "stringValue": "xterm-256color"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "api_request"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-15T06:42:07.685Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "57"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "a4762808-21dd-42e1-9b29-494bb35b15a5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "input_tokens",
+                  "value": {
+                    "intValue": "2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "output_tokens",
+                  "value": {
+                    "intValue": "98"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_read_tokens",
+                  "value": {
+                    "intValue": "87755"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "93"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd",
+                  "value": {
+                    "doubleValue": 0.0283605
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd_micros",
+                  "value": {
+                    "intValue": "28361"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "3018"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011Cd3PT3hhNQEogLaeqM86C"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "speed",
+                  "value": {
+                    "stringValue": "normal"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "effort",
+                  "value": {
+                    "stringValue": "high"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "skill.name",
+                  "value": {
+                    "stringValue": "third-party"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "plugin.name",
+                  "value": {
+                    "stringValue": "third-party"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1784097727685000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.api_request"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "PCD+eBAh6GyZehEaQHnTYQ==",
+              "spanId": "ku19Ik0jlL0=",
+              "observedTimeUnixNano": "1784097727685000000",
+              "eventName": ""
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "a0798161dee5eb4444d961258e51618fbff9ed5dcd6c0969e8816b45918243b4"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "3a6a9ae0-867b-4557-b1bf-044bac71b2b3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "ashish.sheth@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "24c1939a-abc2-4b3e-a061-bf900662d0f2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015YFYjzRwtqPgUQwV9GxfYD"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "terminal.type",
+                  "value": {
+                    "stringValue": "xterm-256color"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "assistant_response"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-15T06:42:07.685Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "58"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "a4762808-21dd-42e1-9b29-494bb35b15a5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response_length",
+                  "value": {
+                    "intValue": "289"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response",
+                  "value": {
+                    "stringValue": "Please run `/mcp` and select **\"claude.ai Atlassian\"** to authenticate — that connector needs to be authorized through that flow rather than one I can trigger directly. Once you're authenticated, let me know and I'll pull CXSUP-258986 details and continue building the implementation plan."
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011Cd3PT3hhNQEogLaeqM86C"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1784097727685000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.assistant_response"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "PCD+eBAh6GyZehEaQHnTYQ==",
+              "spanId": "ku19Ik0jlL0=",
+              "observedTimeUnixNano": "1784097727685000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.210",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.210"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "7a577f2e-f56d-4cb0-8d18-46bcddd72287"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "api_request"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T13:26:36.047Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "145"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "c009fe2c-b93c-43a7-9a60-68541f49a3f6"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "input_tokens",
+                  "value": {
+                    "intValue": "2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "output_tokens",
+                  "value": {
+                    "intValue": "2312"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_read_tokens",
+                  "value": {
+                    "intValue": "71388"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "371"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd",
+                  "value": {
+                    "doubleValue": 0.058328399999999996
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd_micros",
+                  "value": {
+                    "intValue": "58328"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "23320"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011CctTDwAN2uBNmdeX1oA6U"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "speed",
+                  "value": {
+                    "stringValue": "normal"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "effort",
+                  "value": {
+                    "stringValue": "high"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "skill.name",
+                  "value": {
+                    "stringValue": "third-party"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "plugin.name",
+                  "value": {
+                    "stringValue": "third-party"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783689996047000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.api_request"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "SVm5NuzMT1cB1njdajc4KA==",
+              "spanId": "7oJDNO0BPx8=",
+              "observedTimeUnixNano": "1783689996047000000",
+              "eventName": ""
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "7a577f2e-f56d-4cb0-8d18-46bcddd72287"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "assistant_response"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T13:26:36.047Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "146"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "c009fe2c-b93c-43a7-9a60-68541f49a3f6"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response_length",
+                  "value": {
+                    "intValue": "5002"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response",
+                  "value": {
+                    "stringValue": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔍 CODE EXPLAINER REPORT\nScope: Module / Repository\nSubject: HelloWorld (C# .NET 9 console application) — `C:\\proj\\Extracter`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📌 **WHAT IT DOES**\n\n```\nPURPOSE:\nA minimal .NET 9 console application that prints \"Hello, World!\" to standard output and exits.\n\nBEHAVIOR:\n1. The .NET runtime loads the compiled HelloWorld.dll (built from Program.cs via top-level statements).\n2. The implicit Main entry point executes the single top-level statement.\n3. Console.WriteLine writes \"Hello, World!\" followed by a newline to stdout.\n4. The process exits with code 0 (implicit success).\n\nPUBLIC CONTRACT:\n- (implicit) Main(): entry point generated by the compiler from top-level statements — no parameters, no return value, exit code 0 on completion.\n```\n\n🌊 **DATA FLOW**\n\n```\n[INPUT]      → none                     : no CLI args, no stdin, no config consumed\n[VALIDATE]   → n/a                      : nothing to validate — no external input\n[TRANSFORM]  → n/a                      : no data transformation occurs\n[PERSIST]    → n/a                      : no file, DB, or state persistence\n[OUTPUT]     → stdout                   : literal string \"Hello, World!\\n\"\n[SIDE EFFECTS]                          : none (no logging, no metrics, no I/O beyond stdout)\n```\n\n🔗 **DEPENDENCIES**\n\n| Category | Name | Purpose | Direction |\n|----------|------|---------|-----------|\n| Runtime | .NET 9.0 SDK (`net9.0`) | Target framework for build/run | — |\n| Library / SDK | `Microsoft.NET.Sdk` | Standard console app project SDK | — |\n| BCL Namespace | `System.Console` (implicit using) | Provides `Console.WriteLine` | called |\n\nNo database, network, message queue, or environment variable dependencies exist in this code.\n\n⚠️ **RISKS & EDGE CASES**\n\n```\n[🟢] Boilerplate comment left in place\nWhere:    Program.cs, line 1\nTrigger:  N/A — always present\nImpact:   No functional impact; the aka.ms scaffold comment adds no value once the app has real purpose\nFix:      Remove the auto-generated comment once this file starts evolving beyond the template\n```\n\nNo medium or high risks apply — the program has no inputs, no I/O beyond stdout, no external calls, and no state, so the usual risk categories (injection, auth, leaks, race conditions, unhandled exceptions) don't have any surface to act on here.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🎨 GENERATED ARTIFACTS\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📊 **SEQUENCE DIAGRAM**\n\n```mermaid\nsequenceDiagram\n    participant OS as Operating System\n    participant Runtime as .NET Runtime\n    participant Program as Program (top-level statements)\n    participant Console as System.Console\n\n    OS->>+Runtime: dotnet run / execute HelloWorld.dll\n    Runtime->>+Program: invoke implicit Main()\n    Program->>+Console: WriteLine(\"Hello, World!\")\n    Console-->>-Program: (writes to stdout)\n    Program-->>-Runtime: return (exit code 0)\n    Runtime-->>-OS: process exit\n```\n\n**ADDITIONAL DIAGRAMS**\n\n| Diagram Type | Skipped because |\n|---|---|\n| Flowchart | No conditional branches or multi-path logic exist — a single linear statement |\n| Component / Architecture | Only one collaborator (`System.Console`); no multi-layer architecture |\n| Class / Inheritance | No classes or inheritance hierarchy defined |\n| State | No entities or state transitions in the code |\n| ER / Data Model | No persistence or data model present |\n\n🔧 **REFACTORING SUGGESTIONS**\n\n```\n[LOW] — Remove scaffold comment\nCurrent:    Line 1 retains \"// See https://aka.ms/new-console-template for more information\"\nProblem:    Adds noise once the file is no longer a fresh template\nSuggestion: Delete the comment now that the app has a defined purpose\nEffort:     XS\n```\n\nNo other refactoring is warranted — a one-line hello-world program has no SRP violations, duplication, magic numbers, or missing abstractions to address.\n\n📝 **AUTO DOCUMENTATION**\n\n```markdown\n## HelloWorld\n\n**Purpose:** Minimal .NET 9 console application demonstrating a working C# build/run setup.\n\n### Key Files\n| File | Responsibility |\n|------|---------------|\n| `Program.cs` | Entry point; prints \"Hello, World!\" to stdout |\n| `HelloWorld.csproj` | Project file targeting `net9.0`, output type `Exe` |\n\n### Dependencies\n| Dependency | Purpose |\n|------------|---------|\n| .NET 9 SDK | Compiles and runs the console app |\n\n### Configuration\n| Property | Description | Default |\n|----------|-------------|---------|\n| `TargetFramework` | .NET target moniker | `net9.0` |\n| `Nullable` | Enables nullable reference type checking | `enable` |\n| `ImplicitUsings` | Enables implicit global usings | `enable` |\n\n### Usage Example\n\\`\\`\\`bash\ndotnet run --project HelloWorld.csproj\n# Output: Hello, World!\n\\`\\`\\`\n```\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nThis is the entire codebase right now (just the console app from APA-43308) — let me know if you meant a different/larger codebase, or if you'd like me to walk through any part in more depth."
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011CctTDwAN2uBNmdeX1oA6U"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783689996047000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.assistant_response"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "SVm5NuzMT1cB1njdajc4KA==",
+              "spanId": "7oJDNO0BPx8=",
+              "observedTimeUnixNano": "1783689996047000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.206",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.206"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

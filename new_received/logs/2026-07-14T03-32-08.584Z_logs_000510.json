@@ -1,0 +1,352 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "e1534377-7fe3-42e6-851b-2df03767e8ec"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "api_request"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-14T03:32:07.563Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "471"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "fa0d0aa7-72cb-4abc-af2c-b3df51755fcb"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "input_tokens",
+                  "value": {
+                    "intValue": "504"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "output_tokens",
+                  "value": {
+                    "intValue": "5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_read_tokens",
+                  "value": {
+                    "intValue": "146407"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "64"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd",
+                  "value": {
+                    "doubleValue": 0.0458931
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd_micros",
+                  "value": {
+                    "intValue": "45893"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "2375"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011Cd1F9psMhrECmEU2HAa2U"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "speed",
+                  "value": {
+                    "stringValue": "normal"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "prompt_suggestion"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "effort",
+                  "value": {
+                    "stringValue": "high"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783999927563000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.api_request"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "BvE0S7Uet1gPg2n0ruMMuw==",
+              "spanId": "TfYeBGIirh8=",
+              "observedTimeUnixNano": "1783999927563000000",
+              "eventName": ""
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "e1534377-7fe3-42e6-851b-2df03767e8ec"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "assistant_response"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-14T03:32:07.563Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "472"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "fa0d0aa7-72cb-4abc-af2c-b3df51755fcb"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response_length",
+                  "value": {
+                    "intValue": "11"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response",
+                  "value": {
+                    "stringValue": "commit this"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011Cd1F9psMhrECmEU2HAa2U"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "prompt_suggestion"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783999927563000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.assistant_response"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "BvE0S7Uet1gPg2n0ruMMuw==",
+              "spanId": "TfYeBGIirh8=",
+              "observedTimeUnixNano": "1783999927563000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.208",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.208"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

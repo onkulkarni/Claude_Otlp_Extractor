@@ -1,0 +1,366 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "api_request"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T16:32:37.559Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "320"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "7203051a-f2fd-41f9-9174-cadcdfd8b046"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "input_tokens",
+                  "value": {
+                    "intValue": "2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "output_tokens",
+                  "value": {
+                    "intValue": "802"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_read_tokens",
+                  "value": {
+                    "intValue": "108902"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "117"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd",
+                  "value": {
+                    "doubleValue": 0.0454086
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd_micros",
+                  "value": {
+                    "intValue": "45409"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "9849"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011CcthRfZiCVgm5oYoAnd62"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "speed",
+                  "value": {
+                    "stringValue": "normal"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "effort",
+                  "value": {
+                    "stringValue": "high"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "mcp_server.name",
+                  "value": {
+                    "stringValue": "claude_ai_Atlassian"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "mcp_tool.name",
+                  "value": {
+                    "stringValue": "getJiraIssue"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783701157559000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.api_request"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "COZ0QcWBRaybGfbP6ShD8Q==",
+              "spanId": "GU9E96PV5r4=",
+              "observedTimeUnixNano": "1783701157559000000",
+              "eventName": ""
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "assistant_response"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T16:32:37.559Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "321"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "7203051a-f2fd-41f9-9174-cadcdfd8b046"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response_length",
+                  "value": {
+                    "intValue": "1849"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response",
+                  "value": {
+                    "stringValue": "## Summary — APA-43310 implemented\n\nBuilt the Phase 1 OTLP extractor exactly per `HANDOFF.md`'s design, no redesign:\n\n- **`extractor/`**: `otlp_flatten.py`, `jira.py`, `agent.py` (isolated/unverified `Task`-tool path, never raises), `state_store.py` (atomic per-session `.state/<session_id>.json`), `correlate.py` (single chronological pass, `(session_id, event.sequence)` sort), `writer.py` (idempotent via `request_id` glob check), `cli.py` + `__main__.py` (`python -m extractor --input received --output extracted [--dry-run]`).\n- **Tests**: 18 unit tests in `tests/`, using the exact fixture files HANDOFF.md named — all pass (JIRA carry-forward incl. the auxiliary title-gen call, skill scoping strictly per `prompt_id`, session re-keying after `/clear`, value-coercion quirks).\n- **Verification against real `received\\`**: dry-run and full run both emit exactly 27 records (cross-checked against `grep -c '\"api_request\"'` = 27); all 27 carry `JIRA Key = APA-43308`; only the 5 records under the `code-explainer:code-explainer` skill's `prompt_id` show that skill, rest are `null`. Re-running the CLI wrote 0 new files, confirming idempotency.\n\n**Flag (per the ticket's own instruction)**: `Agent` is `null` on every record — there's no real `Task`-tool sample in `received\\`, so `extractor/agent.py` is implemented defensively against the *inferred* schema only, exactly as HANDOFF.md flags. Needs validation against a live subagent-invoking session before trusting in production.\n\nOne more flag, unrelated to the code: the Jira ticket description for APA-43310 opened with an out-of-place line (\"Write a hello world program in c# console application\") that didn't match the rest of the ticket or this project's Python scope — looked like injected text, so I ignored it and built only what HANDOFF.md/the rest of the ticket actually asked for."
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011CcthRfZiCVgm5oYoAnd62"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783701157559000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.assistant_response"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "COZ0QcWBRaybGfbP6ShD8Q==",
+              "spanId": "GU9E96PV5r4=",
+              "observedTimeUnixNano": "1783701157559000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.206",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.206"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "api_request"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T16:36:15.640Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "327"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "74fa4b22-0162-44f0-8b83-7db4670be5b5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "input_tokens",
+                  "value": {
+                    "intValue": "2"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "output_tokens",
+                  "value": {
+                    "intValue": "1180"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_read_tokens",
+                  "value": {
+                    "intValue": "109821"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "22"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd",
+                  "value": {
+                    "doubleValue": 0.0507843
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd_micros",
+                  "value": {
+                    "intValue": "50784"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "14751"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011CcthhPBfvnqweKZ28253W"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "speed",
+                  "value": {
+                    "stringValue": "normal"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "effort",
+                  "value": {
+                    "stringValue": "high"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783701375640000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.api_request"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "RPVYLTzA9ffejS2HZavmHg==",
+              "spanId": "HRAApED3kGM=",
+              "observedTimeUnixNano": "1783701375640000000",
+              "eventName": ""
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "assistant_response"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T16:36:15.640Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "328"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "74fa4b22-0162-44f0-8b83-7db4670be5b5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response_length",
+                  "value": {
+                    "intValue": "2909"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "response",
+                  "value": {
+                    "stringValue": "## Prerequisites\n\nPython 3.14 (already on this machine) with `pytest` installed for tests — no other dependencies (stdlib only). Run all commands from `C:\\proj\\Oltp-Extracter`.\n\n## 1. Run the unit tests first (fast sanity check)\n\n```powershell\npython -m pytest tests/ -v\n```\nExpect 18 passed. If this fails, don't bother running the CLI — fix the failing test first.\n\n## 2. Dry-run against real data (no files written)\n\n```powershell\npython -m extractor --input received --output extracted --dry-run\n```\nPrints one tab-separated line per would-be record: `session_id  request_id  model  cost  jira_key  skill  agent`. Use this to eyeball correctness before trusting file output.\n\n## 3. Real run (writes files)\n\n```powershell\npython -m extractor --input received --output extracted\n```\nOutput: `extracted\\<session_id>\\<timestamp>_<request_id>.json` — one file per `api_request` event. State is persisted to `.state\\<session_id>.json` so subsequent runs (e.g. once the collector drops new files over time) resume correctly.\n\nOptional flags: `--state-dir <path>` (default `.state`) if you want to point at a different state location, e.g. for a clean test run.\n\n## How to validate\n\n**a) Record count matches source data** — every `api_request` event should produce exactly one file:\n```powershell\ngrep -o '\"api_request\"' received/logs/*.json | wc -l   # or: (Select-String -Path received\\logs\\*.json -Pattern '\"api_request\"').Count\nfind extracted -type f | wc -l\n```\nBoth should match (27 in the current sample set).\n\n**b) Spot-check a record's schema** — open any file under `extracted\\<session_id>\\` and confirm the 12 fields plus `_meta` are populated as expected (`Model`, `Cost USD` non-null; `JIRA Key` present if any prompt in that session ever mentioned one; `Skills` only non-null for the specific turn that invoked a skill; `Agent` currently always `null` — unverified, expected).\n\n**c) JIRA carry-forward** — grep all output files for `JIRA Key` and confirm it's consistent with what was typed in `user_prompt` events for that session (never resets until a new key appears):\n```powershell\ngrep -h \"JIRA Key\" extracted/*/*.json | sort -u\n```\n\n**d) Skill scoping** — confirm `\"Skills\"` is non-null only on records whose `_meta.prompt_id` matches a `skill_activated` event's `prompt_id`, and `null` everywhere else in that session.\n\n**e) Idempotency** — run the CLI a second time over the same input; it should report `Wrote 0 record(s), skipped N already-written` and the file count under `extracted\\` should be unchanged:\n```powershell\npython -m extractor --input received --output extracted\nfind extracted -type f | wc -l   # same number as before\n```\n\nIf you later get real files dropped into `received\\logs\\` (not just this sample set), just re-run the same command — it only processes what's there and skips anything already written by `request_id`, so it's safe to run repeatedly or on a schedule."
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": {
+                    "stringValue": "req_011CcthhPBfvnqweKZ28253W"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": {
+                    "stringValue": "claude-sonnet-5"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": {
+                    "stringValue": "repl_main_thread"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783701375640000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.assistant_response"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "RPVYLTzA9ffejS2HZavmHg==",
+              "spanId": "HRAApED3kGM=",
+              "observedTimeUnixNano": "1783701375640000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.206",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.206"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

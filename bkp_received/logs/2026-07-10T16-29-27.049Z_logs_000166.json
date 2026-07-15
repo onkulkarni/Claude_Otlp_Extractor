@@ -1,0 +1,217 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "06b8e71d-bc81-48fd-af12-a9c3db71202b"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "tool_result"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-10T16:29:26.040Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "229"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "7203051a-f2fd-41f9-9174-cadcdfd8b046"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01RerHTv4Nc6aA7SEqTJ4UMA"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "stringValue": "true"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "stringValue": "1344"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_parameters",
+                  "value": {
+                    "stringValue": "{\"bash_command\":\"cd\",\"full_command\":\"cd /c/proj/Oltp-Extracter\\npython3 -c \\\"\\nimport json\\nfor f in ['2026-07-10T13-26-00.510Z_logs_000146.json','2026-07-10T13-26-04.522Z_logs_000148.json','2026-07-10T13-27-04.014Z_logs_000173.json']:\\n    doc = json.load(open('tests/fixtures/'+f, encoding='utf-8'))\\n    for rl in doc['resourceLogs']:\\n        for sl in rl['scopeLogs']:\\n            for lr in sl['logRecords']:\\n                attrs = {a['key']: list(a['value'].values())[0] for a in lr['attributes']}\\n                print(f, attrs.get('event.name'), attrs.get('session.id'), attrs.get('prompt.id'), attrs.get('skill.name'), attrs.get('event.sequence'))\\n\\\"\\n\",\"description\":\"Inspect key fields in skill and /clear fixture files\"}"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_input",
+                  "value": {
+                    "stringValue": "{\"command\":\"cd /c/proj/Oltp-Extracter\\npython3 -c \\\"\\nimport json\\nfor f in ['2026-07-10T13-26-00.510Z_logs_000146.json','2026-07-10T13-26-04.52…[616 chars]\",\"description\":\"Inspect key fields in skill and /clear fixture files\"}"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_input_size_bytes",
+                  "value": {
+                    "stringValue": "712"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_result_size_bytes",
+                  "value": {
+                    "stringValue": "1450"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision_source",
+                  "value": {
+                    "stringValue": "user_permanent"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision_type",
+                  "value": {
+                    "stringValue": "accept"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1783700966040000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.tool_result"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "COZ0QcWBRaybGfbP6ShD8Q==",
+              "spanId": "GU9E96PV5r4=",
+              "observedTimeUnixNano": "1783700966040000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.206",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.206"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

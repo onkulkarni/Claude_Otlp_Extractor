@@ -8,6 +8,8 @@
 
 ## Target contract (from user-provided sample)
 
+> **Superseded 2026-07-15**: the schema below (camelCase keys, plain `skills` array, plain numeric token fields) is **stale**. The server owner has since supplied an updated `snake_case` contract with MongoDB Extended JSON wrappers (`$date`/`$numberLong`) and a `skills` string instead of an array. See `plans/2026-07-15-api-payloads-schema-rename.md` for the current target contract and field mapping — that doc's schema is what `extractor/api_payloads.py` actually implements. The module/design sections below (read-only CSV report, flat output dir, full-overwrite) are still accurate.
+
 ```json
 {
   "sessionId": "sess-001",
@@ -26,6 +28,8 @@
 ```
 
 ## Field mapping (`records_consolidated.csv` column → JSON key)
+
+> Stale — see `plans/2026-07-15-api-payloads-schema-rename.md` for the current field mapping.
 
 | CSV column | JSON key | Notes |
 |---|---|---|

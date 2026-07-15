@@ -96,11 +96,16 @@ def process_events(events: list, state_dir: str, jira_fallback: dict | None = No
                 state.last_jira_key = found_key
         elif event_name == "skill_activated":
             if prompt_id:
-                state.skill_by_prompt_id[prompt_id] = event.get("skill.name")
+                skill_name = event.get("skill.name")
+                agent_value = agent.extract_agent_from_skill_name(skill_name)
+                if agent_value:
+                    state.agent_by_prompt_id.setdefault(prompt_id, agent_value)
+                else:
+                    state.skill_by_prompt_id[prompt_id] = skill_name
         elif event_name in ("tool_decision", "tool_result"):
             agent_value = agent.extract_agent(event)
             if agent_value and prompt_id:
-                state.agent_by_prompt_id[prompt_id] = agent_value
+                state.agent_by_prompt_id.setdefault(prompt_id, agent_value)
         elif event_name == "api_request":
             records.append(_build_record(event, state))
         # everything else (hook_execution_*, assistant_response, plugin_loaded,

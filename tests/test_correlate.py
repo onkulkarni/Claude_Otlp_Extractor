@@ -11,6 +11,9 @@ JIRA_SESSION = "7a577f2e-f56d-4cb0-8d18-46bcddd72287"
 JIRA_PROMPT_ID = "1095e257-4c52-4df6-9d73-e22b247060ac"
 SKILL_PROMPT_ID = "c009fe2c-b93c-43a7-9a60-68541f49a3f6"
 POST_CLEAR_SESSION = "39e26407-550f-4bde-92d0-7d99591c5655"
+AGENT_SKILL_SESSION = "73ec5b2d-56bc-430e-914e-cfde3b69c6f3"
+AGENT_SKILL_PROMPT_ID = "e07cef83-74bb-4ca5-bcc2-0f4baabaf87f"
+INSTRUCTIONS_SKILL_PROMPT_ID = "1df70694-f098-4350-b589-a33e391c7135"
 
 JIRA_FIXTURES = [
     "2026-07-10T13-22-44.088Z_logs_000007.json",  # user_prompt: "can you implement APA-43308"
@@ -22,6 +25,8 @@ SKILL_FIXTURES = [
     "2026-07-10T13-26-04.522Z_logs_000148.json",  # api_request under same prompt_id
 ]
 POST_CLEAR_FIXTURE = "2026-07-10T13-27-04.014Z_logs_000173.json"
+AGENT_SKILL_FIXTURE = "2026-07-15T06-26-48.227Z_logs_000017.json"  # skill_activated: agents:backend-implementer.agent (no api_request; state-only)
+INSTRUCTIONS_SKILL_FIXTURE = "2026-07-15T06-27-23.970Z_logs_000043.json"  # skill_activated: instructions:mcp-atlassian-usage.instructions + api_request, same prompt_id
 
 
 def _load_events(filenames):
@@ -55,6 +60,24 @@ def test_skill_scoped_strictly_to_matching_prompt_id(tmp_path):
     for record in records:
         if record["_meta"]["prompt_id"] == JIRA_PROMPT_ID:
             assert record["Skills"] is None
+
+
+def test_agent_prefixed_skill_routes_to_agent_column(tmp_path):
+    events = _load_events([AGENT_SKILL_FIXTURE])
+    correlate.process_events(events, str(tmp_path))
+
+    state = state_store.load(str(tmp_path), AGENT_SKILL_SESSION)
+    assert state.agent_by_prompt_id[AGENT_SKILL_PROMPT_ID] == "backend-implementer"
+    assert state.skill_by_prompt_id.get(AGENT_SKILL_PROMPT_ID) is None
+
+
+def test_non_agent_namespaced_skill_still_routes_to_skills_column(tmp_path):
+    events = _load_events([INSTRUCTIONS_SKILL_FIXTURE])
+    records = correlate.process_events(events, str(tmp_path))
+
+    assert len(records) == 1
+    assert records[0]["Skills"] == "instructions:mcp-atlassian-usage.instructions"
+    assert records[0]["Agent"] is None
 
 
 def test_session_state_rekeyed_after_clear(tmp_path):

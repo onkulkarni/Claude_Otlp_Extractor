@@ -25,6 +25,8 @@ STEPS = [
      [sys.executable, "-m", "extractor.consolidate"]),
     ("Generating API payloads",
      [sys.executable, "-m", "extractor.api_payloads"]),
+    ("Invoking API with generated payloads",
+     [sys.executable, "invoker.py", "--config", "config.yaml"]),
 ]
 
 

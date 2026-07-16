@@ -1,0 +1,182 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "29630d6d-3ae3-4f2b-8e25-a801203d8955"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "tool_decision"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-16T07:41:56.793Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "158"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "bae4f313-caf7-405f-b2cb-2e52331dfcf4"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision",
+                  "value": {
+                    "stringValue": "accept"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "source",
+                  "value": {
+                    "stringValue": "user_permanent"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01FSdXEZ8UysW5cUvci1EckF"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_parameters",
+                  "value": {
+                    "stringValue": "{\"bash_command\":\"cd\",\"full_command\":\"cd \\\"/c/proj/API-invoker\\\" && python invoker.py --config config.yaml; echo \\\"EXIT CODE: $?\\\"\",\"description\":\"Run invoker against 500-returning stub server to verify failure handling\"}"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1784187716793000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.tool_decision"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "RKjUo8G+Al2nw2+S1yjPBA==",
+              "spanId": "PWLDlHfQWdw=",
+              "observedTimeUnixNano": "1784187716793000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.211",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.211"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "29630d6d-3ae3-4f2b-8e25-a801203d8955"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": {
+                    "stringValue": "tool_result"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": {
+                    "stringValue": "2026-07-16T07:43:44.399Z"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": {
+                    "intValue": "175"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": {
+                    "stringValue": "bae4f313-caf7-405f-b2cb-2e52331dfcf4"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01Dk42JktAwchNiuxNYU9Mra"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "stringValue": "true"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "stringValue": "1623"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_parameters",
+                  "value": {
+                    "stringValue": "{\"bash_command\":\"python\",\"full_command\":\"python \\\"C:/Users/ONKULK~1/AppData/Local/Temp/claude/C--proj-API-invoker/29630d6d-3ae3-4f2b-8e25-a801203d8955/scratchpad/stub_server_fail_8081.py\\\" 2>&1 &\\nsleep 0.5\\necho done\",\"description\":\"placeholder (script not yet written) - will write next\"}"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_input",
+                  "value": {
+                    "stringValue": "{\"command\":\"python \\\"C:/Users/ONKULK~1/AppData/Local/Temp/claude/C--proj-API-invoker/29630d6d-3ae3-4f2b-8e25-a801203d8955/scratchpad/stub_server_fail_8081.py\\\" 2>&1 &\\nsleep 0.5\\necho done\",\"description\":\"placeholder (script not yet written) - will write next\"}"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_input_size_bytes",
+                  "value": {
+                    "stringValue": "261"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_result_size_bytes",
+                  "value": {
+                    "stringValue": "279"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision_source",
+                  "value": {
+                    "stringValue": "user_permanent"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "decision_type",
+                  "value": {
+                    "stringValue": "accept"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1784187824399000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": {
+                "stringValue": "claude_code.tool_result"
+              },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "RKjUo8G+Al2nw2+S1yjPBA==",
+              "spanId": "F0FvSP9RMPQ=",
+              "observedTimeUnixNano": "1784187824399000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.211",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.211"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

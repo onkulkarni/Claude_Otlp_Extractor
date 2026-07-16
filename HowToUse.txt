@@ -1,0 +1,46 @@
+Terminal 1 — start the receiver:
+cd C:\proj\Claude_oltp_poc
+node server.js
+
+
+
+$env:CLAUDE_CODE_ENABLE_TELEMETRY = "1"
+$env:OTEL_METRICS_EXPORTER = "otlp"
+$env:OTEL_LOGS_EXPORTER = "otlp"
+$env:OTEL_TRACES_EXPORTER = "otlp"
+$env:CLAUDE_CODE_ENHANCED_TELEMETRY_BETA = "1"
+$env:OTEL_EXPORTER_OTLP_PROTOCOL = "http/protobuf"
+$env:OTEL_EXPORTER_OTLP_ENDPOINT = "http://localhost:4318"
+$env:OTEL_LOG_TOOL_DETAILS = "1"
+$env:OTEL_LOG_USER_PROMPTS = "1"
+$env:OTEL_METRIC_EXPORT_INTERVAL = "5000"
+$env:OTEL_LOGS_EXPORT_INTERVAL = "1000"
+$env:OTEL_TRACES_EXPORT_INTERVAL = "1000"
+
+
+[System.Environment]::SetEnvironmentVariable("CLAUDE_CODE_ENABLE_TELEMETRY", "1", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_METRICS_EXPORTER", "otlp", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_LOGS_EXPORTER", "otlp", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_TRACES_EXPORTER", "otlp", "User")
+
+[System.Environment]::SetEnvironmentVariable("CLAUDE_CODE_ENHANCED_TELEMETRY_BETA", "1", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_EXPORTER_OTLP_PROTOCOL", "http/protobuf", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_EXPORTER_OTLP_ENDPOINT", "http://localhost:4318", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_LOG_TOOL_DETAILS", "1", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_METRIC_EXPORT_INTERVAL", "5000", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_LOGS_EXPORT_INTERVAL", "1000", "User")
+
+[System.Environment]::SetEnvironmentVariable("OTEL_TRACES_EXPORT_INTERVAL", "1000", "User")
+ 
+[System.Environment]::SetEnvironmentVariable("OTEL_LOG_USER_PROMPTS", "1", "User")
+ 
+
+ 

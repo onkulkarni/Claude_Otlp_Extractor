@@ -1,0 +1,266 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "29630d6d-3ae3-4f2b-8e25-a801203d8955"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool.execution"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01Dk42JktAwchNiuxNYU9Mra"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01Dk42JktAwchNiuxNYU9Mra"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "1624"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "boolValue": true
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "RKjUo8G+Al2nw2+S1yjPBA==",
+              "spanId": "FZ48UlXr038=",
+              "traceState": "",
+              "parentSpanId": "uPR8/2YDmUE=",
+              "name": "claude_code.tool.execution",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1784187822775000000",
+              "endTimeUnixNano": "1784187824399012300",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "29630d6d-3ae3-4f2b-8e25-a801203d8955"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "full_command",
+                  "value": {
+                    "stringValue": "python \"C:/Users/ONKULK~1/AppData/Local/Temp/claude/C--proj-API-invoker/29630d6d-3ae3-4f2b-8e25-a801203d8955/scratchpad/stub_server_fail_8081.py\" 2>&1 &\nsleep 0.5\necho done"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01Dk42JktAwchNiuxNYU9Mra"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01Dk42JktAwchNiuxNYU9Mra"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "9003"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "RKjUo8G+Al2nw2+S1yjPBA==",
+              "spanId": "uPR8/2YDmUE=",
+              "traceState": "",
+              "parentSpanId": "F0FvSP9RMPQ=",
+              "name": "claude_code.tool",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1784187815395000000",
+              "endTimeUnixNano": "1784187824398529900",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.tracing",
+            "version": "1.0.0",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.211"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

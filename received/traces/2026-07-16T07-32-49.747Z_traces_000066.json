@@ -1,0 +1,266 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "29630d6d-3ae3-4f2b-8e25-a801203d8955"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool.execution"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01Lu1sJQt4WdaX8wHybk7if9"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01Lu1sJQt4WdaX8wHybk7if9"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "1097"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "success",
+                  "value": {
+                    "boolValue": true
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "RKjUo8G+Al2nw2+S1yjPBA==",
+              "spanId": "xgQRm10GnxY=",
+              "traceState": "",
+              "parentSpanId": "qggr+Hw4Ayc=",
+              "name": "claude_code.tool.execution",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1784187167639000000",
+              "endTimeUnixNano": "1784187168736410200",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            },
+            {
+              "attributes": [
+                {
+                  "key": "user.id",
+                  "value": {
+                    "stringValue": "68925e73b4864fa906fe09982d37caf1e319acf8cfb55f78da2e9a773af41f42"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "session.id",
+                  "value": {
+                    "stringValue": "29630d6d-3ae3-4f2b-8e25-a801203d8955"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "organization.id",
+                  "value": {
+                    "stringValue": "ad2d1967-9b78-4a06-aa14-a45eb2824fc3"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": {
+                    "stringValue": "onkar.kulkarni@nice.com"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_uuid",
+                  "value": {
+                    "stringValue": "27982a77-06c9-41c7-b889-934c483bdaed"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.account_id",
+                  "value": {
+                    "stringValue": "user_015taZBqASCkSkBU6ofoJq9N"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "span.type",
+                  "value": {
+                    "stringValue": "tool"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_name",
+                  "value": {
+                    "stringValue": "Bash"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "full_command",
+                  "value": {
+                    "stringValue": "for f in \"/c/proj/API-invoker/extracted/api_payloads/003ed25f-cd28-4c09-a110-00cc92bcd293_req_011Cd3Qk9Rpc5BD3Lp1zW3rh.json\" \"/c/proj/API-invoker/extracted/api_payloads/06b8e71d-bc81-48fd-af12-a9c3db71202b_req_011CctgZFJKMXyunjuq6tfn4.json\" \"/c/proj/API-invoker/extracted/api_payloads/fd6693d5-74b5-4f26-86e2-1086c52c055e_req_011Cd3NJcMNDbQ2QDkJpHvUj.json\"; do echo \"=== $f ===\"; cat \"$f\"; echo; done"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "tool_use_id",
+                  "value": {
+                    "stringValue": "toolu_01Lu1sJQt4WdaX8wHybk7if9"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "gen_ai.tool.call.id",
+                  "value": {
+                    "stringValue": "toolu_01Lu1sJQt4WdaX8wHybk7if9"
+                  },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "duration_ms",
+                  "value": {
+                    "intValue": "5904"
+                  },
+                  "keyStrindex": 0
+                }
+              ],
+              "events": [],
+              "links": [],
+              "traceId": "RKjUo8G+Al2nw2+S1yjPBA==",
+              "spanId": "qggr+Hw4Ayc=",
+              "traceState": "",
+              "parentSpanId": "F0FvSP9RMPQ=",
+              "name": "claude_code.tool",
+              "kind": "SPAN_KIND_INTERNAL",
+              "startTimeUnixNano": "1784187162832000000",
+              "endTimeUnixNano": "1784187168736375300",
+              "droppedAttributesCount": 0,
+              "droppedEventsCount": 0,
+              "droppedLinksCount": 0,
+              "status": {
+                "message": "",
+                "code": "STATUS_CODE_UNSET"
+              },
+              "flags": 257
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.tracing",
+            "version": "1.0.0",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          {
+            "key": "host.arch",
+            "value": {
+              "stringValue": "amd64"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.type",
+            "value": {
+              "stringValue": "windows"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "os.version",
+            "value": {
+              "stringValue": "10.0.26200"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "claude-code"
+            },
+            "keyStrindex": 0
+          },
+          {
+            "key": "service.version",
+            "value": {
+              "stringValue": "2.1.211"
+            },
+            "keyStrindex": 0
+          }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

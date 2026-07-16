@@ -1,0 +1,6 @@
+api:
+  url: "http://localhost:8080/api/sessions"
+  method: "POST"
+  headers:
+    Content-Type: "application/json"
+payloads_dir: "extracted/api_payloads"

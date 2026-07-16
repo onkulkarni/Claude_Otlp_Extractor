@@ -46,12 +46,14 @@ def load_and_sort_events(input_dir: str) -> list:
 def _build_record(event: dict, state: state_store.SessionState) -> dict:
     prompt_id = event.get("prompt.id")
     timestamp = event.get("event.timestamp") or ""
+    agent_value = state.agent_by_prompt_id.get(prompt_id)
+    skill_value = None if agent_value else state.skill_by_prompt_id.get(prompt_id)
     return {
         "Session ID": event.get("session.id"),
         "Session Date": timestamp[:10] or None,
         "Model": event.get("model"),
-        "Agent": state.agent_by_prompt_id.get(prompt_id),
-        "Skills": state.skill_by_prompt_id.get(prompt_id),
+        "Agent": agent_value,
+        "Skills": skill_value,
         "Cost USD": event.get("cost_usd"),
         "Input Tokens": event.get("input_tokens"),
         "Output Tokens": event.get("output_tokens"),

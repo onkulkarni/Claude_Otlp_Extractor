@@ -80,6 +80,31 @@ def test_non_agent_namespaced_skill_still_routes_to_skills_column(tmp_path):
     assert records[0]["Agent"] is None
 
 
+def test_agent_forces_skills_to_none_when_both_populated_for_same_prompt(tmp_path):
+    # Simulates polluted state where an older run left a stale skill_by_prompt_id
+    # entry and a later signal populated agent_by_prompt_id for the same prompt_id
+    # (see extracted/records.csv session 003ed25f-cd28-4c09-a110-00cc92bcd293).
+    session_id = "polluted-session"
+    prompt_id = "polluted-prompt-id"
+
+    state = state_store.SessionState()
+    state.agent_by_prompt_id[prompt_id] = "backend-implementer"
+    state.skill_by_prompt_id[prompt_id] = "agents:backend-implementer.agent"
+    state_store.save(str(tmp_path), session_id, state)
+
+    api_request_event = {
+        "session.id": session_id,
+        "event.name": "api_request",
+        "prompt.id": prompt_id,
+        "event.timestamp": "2026-07-15T06:26:48.227Z",
+    }
+    records = correlate.process_events([api_request_event], str(tmp_path))
+
+    assert len(records) == 1
+    assert records[0]["Agent"] == "backend-implementer"
+    assert records[0]["Skills"] is None
+
+
 def test_session_state_rekeyed_after_clear(tmp_path):
     events = _load_events(JIRA_FIXTURES + [POST_CLEAR_FIXTURE])
     correlate.process_events(events, str(tmp_path))

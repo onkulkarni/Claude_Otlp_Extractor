@@ -1,0 +1,209 @@
+{
+  "resourceLogs": [
+    {
+      "scopeLogs": [
+        {
+          "logRecords": [
+            {
+              "attributes": [
+                {
+                  "key": "session.id",
+                  "value": { "stringValue": "e2e-both-signals-session" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": { "stringValue": "e2e-test@nice.com" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": { "stringValue": "skill_activated" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": { "stringValue": "2026-07-16T00:00:00.100Z" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": { "intValue": "0" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": { "stringValue": "e2e-both-signals-prompt" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "skill.name",
+                  "value": { "stringValue": "code-explainer:code-explainer" },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1784246400100000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": { "stringValue": "claude_code.skill_activated" },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "",
+              "spanId": "",
+              "observedTimeUnixNano": "1784246400100000000",
+              "eventName": ""
+            },
+            {
+              "attributes": [
+                {
+                  "key": "session.id",
+                  "value": { "stringValue": "e2e-both-signals-session" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": { "stringValue": "e2e-test@nice.com" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": { "stringValue": "skill_activated" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": { "stringValue": "2026-07-16T00:00:00.200Z" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": { "intValue": "1" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": { "stringValue": "e2e-both-signals-prompt" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "skill.name",
+                  "value": { "stringValue": "agents:backend-implementer.agent" },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1784246400200000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": { "stringValue": "claude_code.skill_activated" },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "",
+              "spanId": "",
+              "observedTimeUnixNano": "1784246400200000000",
+              "eventName": ""
+            },
+            {
+              "attributes": [
+                {
+                  "key": "session.id",
+                  "value": { "stringValue": "e2e-both-signals-session" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "user.email",
+                  "value": { "stringValue": "e2e-test@nice.com" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.name",
+                  "value": { "stringValue": "api_request" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.timestamp",
+                  "value": { "stringValue": "2026-07-16T00:00:00.300Z" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "event.sequence",
+                  "value": { "intValue": "2" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "prompt.id",
+                  "value": { "stringValue": "e2e-both-signals-prompt" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "model",
+                  "value": { "stringValue": "claude-sonnet-5" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "input_tokens",
+                  "value": { "intValue": "10" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "output_tokens",
+                  "value": { "intValue": "20" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_read_tokens",
+                  "value": { "intValue": "0" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": { "intValue": "0" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "cost_usd",
+                  "value": { "doubleValue": 0.001 },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "request_id",
+                  "value": { "stringValue": "req_e2e_both_signals" },
+                  "keyStrindex": 0
+                },
+                {
+                  "key": "query_source",
+                  "value": { "stringValue": "repl_main_thread" },
+                  "keyStrindex": 0
+                }
+              ],
+              "timeUnixNano": "1784246400300000000",
+              "severityNumber": "SEVERITY_NUMBER_UNSPECIFIED",
+              "severityText": "",
+              "body": { "stringValue": "claude_code.api_request" },
+              "droppedAttributesCount": 0,
+              "flags": 1,
+              "traceId": "",
+              "spanId": "",
+              "observedTimeUnixNano": "1784246400300000000",
+              "eventName": ""
+            }
+          ],
+          "scope": {
+            "attributes": [],
+            "name": "com.anthropic.claude_code.events",
+            "version": "2.1.210",
+            "droppedAttributesCount": 0
+          },
+          "schemaUrl": ""
+        }
+      ],
+      "resource": {
+        "attributes": [
+          { "key": "service.name", "value": { "stringValue": "claude-code" }, "keyStrindex": 0 }
+        ],
+        "entityRefs": [],
+        "droppedAttributesCount": 0
+      },
+      "schemaUrl": ""
+    }
+  ]
+}

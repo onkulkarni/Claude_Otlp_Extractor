@@ -27,18 +27,18 @@ def first_request_id(row: dict) -> str:
 
 def build_payload(row: dict) -> dict:
     return {
-        "session_id": row["Session ID"],
-        "session_date": {"$date": f"{row['Session Date']}T00:00:00.000Z"},
+        "sessionId": row["Session ID"],
+        "sessionDate": f"{row['Session Date']}T00:00:00.000Z",
         "model": row.get("Model"),
         "agent": row.get("Agent"),
-        "email_id": row.get("User Email"),
+        "emailId": row.get("User Email"),
         "skills": row.get("Skills") or "",
-        "cost_usd": float(row.get("Cost USD") or 0),
-        "input_tokens": {"$numberLong": str(int(row.get("Input Tokens") or 0))},
-        "output_tokens": {"$numberLong": str(int(row.get("Output Tokens") or 0))},
-        "cache_read_tokens": {"$numberLong": str(int(row.get("Cache Read Tokens") or 0))},
-        "cache_creation_tokens": {"$numberLong": str(int(row.get("Cache Creation Tokens") or 0))},
-        "jira_key": row.get("JIRA Key"),
+        "costUsd": float(row.get("Cost USD") or 0),
+        "inputTokens": int(row.get("Input Tokens") or 0),
+        "outputTokens": int(row.get("Output Tokens") or 0),
+        "cacheReadTokens": int(row.get("Cache Read Tokens") or 0),
+        "cacheCreationTokens": int(row.get("Cache Creation Tokens") or 0),
+        "jiraKey": row.get("JIRA Key"),
     }
 
 
@@ -79,7 +79,7 @@ def main(argv=None) -> int:
     for row in rows:
         payload = build_payload(row)
         print(
-            f"{payload['session_id']}\t{payload['jira_key']}\t{payload['model']}\t${payload['cost_usd']:.4f}"
+            f"{payload['sessionId']}\t{payload['jiraKey']}\t{payload['model']}\t${payload['costUsd']:.4f}"
         )
     print(f"Wrote {len(written_paths)} payload file(s) to {args.output_dir}")
 

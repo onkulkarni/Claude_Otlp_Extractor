@@ -36,22 +36,21 @@ def test_build_payload_field_mapping_and_coercion():
     payload = api_payloads.build_payload(row)
 
     assert payload == {
-        "session_id": "sess-001",
-        "session_date": {"$date": "2026-07-10T00:00:00.000Z"},
+        "sessionId": "sess-001",
+        "sessionDate": "2026-07-10T00:00:00.000Z",
         "model": "claude-sonnet-5",
         "agent": "claude-code",
-        "email_id": "onkar.kulkarni@nice.com",
+        "emailId": "onkar.kulkarni@nice.com",
         "skills": "docx",
-        "cost_usd": 0.42,
-        "input_tokens": {"$numberLong": "1200"},
-        "output_tokens": {"$numberLong": "800"},
-        "cache_read_tokens": {"$numberLong": "300"},
-        "cache_creation_tokens": {"$numberLong": "100"},
-        "jira_key": "APA-1",
+        "costUsd": 0.42,
+        "inputTokens": 1200,
+        "outputTokens": 800,
+        "cacheReadTokens": 300,
+        "cacheCreationTokens": 100,
+        "jiraKey": "APA-1",
     }
-    assert isinstance(payload["cost_usd"], float)
-    assert payload["input_tokens"]["$numberLong"] == "1200"
-    assert isinstance(payload["input_tokens"]["$numberLong"], str)
+    assert isinstance(payload["costUsd"], float)
+    assert isinstance(payload["inputTokens"], int)
 
 
 def test_build_payload_empty_skills_becomes_empty_string():
@@ -90,8 +89,8 @@ def test_write_payloads_writes_one_file_per_row(tmp_path):
 
     with open(os.path.join(output_dir, "sess-001_req_1.json"), encoding="utf-8") as f:
         payload = json.load(f)
-    assert payload["session_id"] == "sess-001"
-    assert payload["jira_key"] == "APA-1"
+    assert payload["sessionId"] == "sess-001"
+    assert payload["jiraKey"] == "APA-1"
 
 
 def test_write_payloads_full_overwrite_removes_stale_files(tmp_path):
